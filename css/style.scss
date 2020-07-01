@@ -1,0 +1,258 @@
+#rh-badge {
+  display: none !important; //Убрать что бы показать блок "Задать вопрос"
+}
+
+#rc-copyright {
+  display: none !important; //Убрать что бы показать копирайт
+}
+
+#rc-phone-button { //цвет кнопки
+  background-color: rgb(62, 164, 190) !important;
+  border-color: rgb(62, 164, 190) !important;
+}
+
+#rc-phone-back {
+  background-color: rgb(62, 164, 190) !important;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+#gallery {
+  margin-top: 100px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  height: 100px;
+}
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.cga {
+  padding: 0 !important;
+  background-color: #152c36;
+}
+
+.hd {
+  text-transform: uppercase;
+  border-bottom: 3px solid #fcde32;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+  max-width: 1170px;
+}
+
+.swiper-container {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.swiper-slide {
+  min-width: 0;
+}
+
+.why {
+  animation-duration: 2s;
+}
+
+.man {
+  position: absolute;
+  bottom: -180px;
+  right: 22em;
+  z-index: 990;
+}
+
+.adress {
+  background-color: rgba(255, 255, 255, 0.65);
+  font-weight: normal;
+  font-size: 1em;
+  position: absolute;
+  right: 21em;
+  top: 4em;
+  z-index: 900;
+  padding: 1em;
+  max-width: 540px;
+
+}
+
+.phone {
+  background-color: rgba(62, 164, 190, 0.85);
+  font-weight: normal;
+  font-size: 1em;
+  position: absolute;
+  left: 20.5em;
+  top: 4em;
+  z-index: 900;
+  padding: 1em;
+  max-width: 540px;
+
+  h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.4em;
+  }
+
+  h2 {
+    color: #18343f;
+    font-weight: bold;
+    font-size: 2.8em;
+  }
+}
+
+.block {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.txt {
+  text-align: left;
+}
+
+.sphere {
+  img {
+    border-radius: 500px;
+  }
+}
+
+.img-sp {
+  text-align: center;
+}
+
+.plash {
+  background-color: #152c36;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 5em;
+
+  h2 {
+    text-transform: uppercase;
+    padding: 1em 0;
+  }
+}
+
+
+.why {
+  padding-top: 1.5em;
+
+  h3 {
+    padding: 0.5em 0;
+    font-size: 17px;
+  }
+}
+
+.tel {
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.footer {
+  padding: 0.6em 0;
+  background-color: #434343;
+  color: white;
+}
+
+.scroll {
+  a {
+    padding: 36px 1em;
+    color: rgb(85, 85, 85);
+    height: 100%;
+
+    &:hover {
+      border-top: 5px solid #3da4be;
+      text-decoration: none;
+    }
+  }
+}
+
+.active {
+  a {
+    border-top: 5px solid #3da4be;
+  }
+}
+
+.blue {
+  color: #3da4be;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+}
+
+.progress-bar-element {
+  position: absolute;
+  left: 0px;
+  bottom: -9px;
+  z-index: 10000;
+  width: 100%;
+}
+
+#whypwh, #why {
+  background-color: #f0f0f0;
+}
+
+.arrow {
+  margin: 0em auto;
+  font-size: 3em;
+  height: auto;
+  color: #3da4be;
+}
+
+.logo {
+  margin-top: -5px;
+  font-size: 2.8em;
+  color: #3da4be;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.black {
+  color: #171a1b;
+}
+
+.lines {
+  padding-bottom: 17px;
+  position: relative;
+  margin-bottom: 24px;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: -11px;
+    left: 50%;
+    margin-left: -12px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    background: #3ea4be;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 140px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -70px;
+    height: 1px;
+    background: #ebebeb;
+  }
+}
